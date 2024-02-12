@@ -1,0 +1,319 @@
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.978);
+    }
+
+    @font-face {
+        font-family: "Montserrat-VariableFont_wght";
+        src: url("../font-famalies/Montserrat-VariableFont_wght.ttf") format("truetype");
+    }
+
+    button {
+        font-weight: bold;
+        height: 47px;
+        width: 170px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    span {
+        margin-bottom: 50px;
+        font-weight: 600;
+        font-size: 40px;
+        font-family: "Montserrat-VariableFont_wght";
+    }
+
+    .gold-buttons {
+        background: linear-gradient(to right, #EEBB52 0%, #F2ED70 50%, #EEBB52 100%);
+        box-shadow: 0 2px 0 0 #A48426;
+        color: black;
+    }
+
+    .container-indent {
+        width: 1400px;
+        margin: auto;
+        margin-top: 90px;
+    }
+
+    .phrases-color {
+        color: #F0AC52;
+    }
+
+    /*! header */
+
+    header {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: 30px 50px 0px 0px;
+    }
+
+    .select-languages {
+        display: contents;
+        justify-content: center;
+        align-items: center;
+    }
+
+    select {
+        border: solid #F0AC52 2px;
+        color: white;
+        background-color: black;
+        outline: none;
+    }
+
+    .line {
+        border: solid rgb(87, 86, 86) 0.1px;
+        height: 60px;
+    }
+
+    .logoLanguage {
+        margin-right: 5px;
+    }
+
+    .register,
+    .login,
+    select,
+    .line {
+        margin-right: 1em;
+        border-radius: 10px;
+    }
+
+    .login {
+        background: none;
+        border: solid #F0AC52 2px;
+    }
+
+    /*! container-main */
+
+    .img-gold {
+        position: absolute;
+        margin-left: 51.4em;
+        margin-top: 2em;
+    }
+
+    .img-pngwing {
+        position: absolute;
+        z-index: -2;
+        margin-top: 3.7em;
+        margin-left: 35.5em;
+    }
+
+    .container-main {
+        display: flex;
+        align-items: center;
+        background-color: #c7ac1300;
+    }
+
+    .div1-main {
+        flex-grow: 1;
+    }
+
+    .div2-main {
+        margin-right: 10em;
+        box-shadow: 0px 0px 100000px 100px rgba(255, 217, 0, 0.222);
+        border-radius: 100px;
+    }
+
+    .paragraph-main {
+        font-size: 30px;
+        margin-top: -1px;
+    }
+
+    .join_one {
+        height: 50px;
+        width: 250px;
+    }
+
+    /*! container-advantages */
+
+    .title1-adv,
+    .title2-adv {
+        display: inline-block;
+    }
+
+    .table-advantages {
+        border-collapse: separate;
+        border-spacing: 25px;
+        margin: auto;
+    }
+
+    .table-advantages td {
+        background: linear-gradient(to bottom, rgba(79, 63, 41, 1) 0%, rgba(79, 63, 41, 0) 100%);
+        border: solid #F0AC52 1px;
+        width: 450px;
+        height: 230px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .caption-bottom {
+        caption-side: bottom;
+    }
+
+    .caption-bottom button {
+        width: 200px;
+    }
+
+    .icons {
+        font-size: 100px;
+    }
+
+    .cards_noback {
+        position: absolute;
+        margin-left: -280px;
+        margin-top: -250px;
+    }
+
+    /*! container-working_conditions */
+
+    .container-working_conditions {
+        border: solid #F0AC52 1px;
+        width: 80em;
+        height: 35em;
+        background-color: #ffffff12;
+        border-radius: 34.16px;
+    }
+
+    .table-working_conditions {
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 25px;
+    }
+
+    .table-working_conditions td {
+        border: solid 1px rgba(255, 255, 255, 1);
+        border-radius: 5%;
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        vertical-align: top;
+        line-height: 1.5;
+    }
+
+    .table-working_conditions h1 {
+        -webkit-text-stroke: 1px #EEBB52;
+        color: rgba(54, 51, 51, 0.015);
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+
+    .caption-top {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .table-working_conditions td:nth-child(3) {
+        box-shadow: 150px 0px 1000px 50px rgba(242, 220, 97, 0.203);
+    }
+
+    /*! container-logos */
+
+    .table-logs {
+        border-spacing: 40px;
+    }
+
+    .table-logs img {
+        width: 185px;
+    }
+
+    /*! container-reviews */
+
+    .back-form {
+        border: solid #F0AC52 1px;
+        width: 1056px;
+        height: 393px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .row1-back-form {
+        border: solid #F0AC52 1px;
+    }
+
+    .points-in {
+        display: flex;
+        margin: 10px 0px 10px 30px;
+    }
+
+    .point-gray,
+    .point-black {
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+
+    .point-gray {
+        background-color: #cccaca;
+    }
+
+    .point-black {
+        background-color: #F0AC52
+    }
+
+    .luckyonline_little {
+        width: 100px;
+    }
+
+    .image-in,
+    .text-in {
+        margin: 2em 0 0 2.5em;
+        font-size: 13px;
+        line-height: 0em;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row3-back-form {
+        display: flex;
+    }
+
+    .review {
+        box-shadow: 150px -50px 200px 20px rgba(255, 217, 0, 0.153);
+        background-color: rgb(255, 255, 255);
+        color: black;
+        margin: 2em 0 0 -8em;
+        line-height: 1.5em;
+        width: 750px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .luckyonline_big {
+        position: absolute;
+        margin-left: 45.3em;
+    }
+
+    .pngwing2 {
+        position: absolute;
+        margin-top: -10em;
+        margin-left: 54em;
+    }
+
+    .arrows {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*! footer */
+
+    footer {
+        box-shadow: 0px 70px 200px 100px rgba(255, 217, 0, 0.222);
+        margin: -10px;
+        margin-top: 200px;
+        background-color: rgba(0, 0, 0);
+    }
+
+    .table-footer {
+        margin: auto;
+        border-spacing: 30px;
+    }
+
+    .table-footer caption {
+        margin-top: 40px;
+    }
